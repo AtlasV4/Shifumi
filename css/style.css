@@ -1,0 +1,66 @@
+.div {
+    margin : auto;
+    width: fit-content;
+    padding-bottom: 1em;
+}
+
+#resultat {
+    margin-top : 2em;
+    margin-left : auto;
+    margin-right: auto;
+    border-top: solid 2px lightblue;
+}
+
+button {
+    background-color : darkblue ;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding : 1em;
+    margin-top: 1em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#boutonFeuille {
+    margin-left : 1.5em;
+}
+
+#boutonCiseaux {
+    margin-left : 1.5em;
+}
+
+button:hover {
+    background-color: lightblue;
+    transition: 0.3s;
+    cursor: grab;
+    color: white;
+}
+
+main {
+    background-color : #E1F8F0
+}
+
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fin {
+    border : none;
+    background-color: #E1F8F0;
+    color : black ;
+    margin : auto;
+    text-align: center;
+}
+
+.conteneur {
+    border: solid 5px lightblue;
+    background-color: darkblue;
+    border-radius: 20px;
+    margin-top: 1em;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 1em;
+}
